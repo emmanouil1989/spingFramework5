@@ -1,7 +1,6 @@
-package com.manos.repositories;
+package com.manos.spring5webapp.repositories;
 
-import com.manos.model.Book;
-import org.springframework.data.annotation.CreatedBy;
+import com.manos.spring5webapp.model.Book;
 import org.springframework.data.repository.CrudRepository;
 
 public interface BookRepository extends CrudRepository<Book,Long> {

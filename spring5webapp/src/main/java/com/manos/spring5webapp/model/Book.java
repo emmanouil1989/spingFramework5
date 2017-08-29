@@ -1,4 +1,4 @@
-package com.manos.model;
+package com.manos.spring5webapp.model;
 
 import javax.persistence.*;
 import java.util.HashSet;
